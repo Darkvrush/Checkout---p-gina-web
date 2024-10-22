@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Pivettes Hookah</title>
+    <link rel="icon" href="imagens/WhatsApp Image 2024-10-15 at 18.39.39.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <header>
+        <h1>Pivettes Hookah</h1>
+        <p>Adega e Tabacaria - Finalize sua compra</p>
+    </header>
+
+    <main>
+        <section class="checkout-form">
+            <h2>Informações de Pagamento</h2>
+            <form action="#" method="POST">
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="address">Endereço de Entrega:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="card">Número do Cartão:</label>
+                <input type="number" id="card" name="card" required placeholder="**** **** **** ****">
+
+                <label for="expiry">Data de Expiração:</label>
+                <input type="month" id="expiry" name="expiry" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required maxlength="3">
+
+                <button type="submit">Finalizar Compra</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pivettes Hookah - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
